@@ -9,7 +9,6 @@ public:
 	{
 		double y;
 		y = sqrt((pow(x, 2)) - 4 * log(x));
-		//y = 2 * ((abs(x + 3)) / (x + 3)) * x + 6;
 		return y;
 	}
 };
